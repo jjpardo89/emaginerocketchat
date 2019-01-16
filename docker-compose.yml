@@ -6,6 +6,6 @@ services:
   rocketchat:
     image: rocket.chat:latest
     environment:
-      ROOT_URL: 'http://localhost'
+      ROOT_URL: 'http://chat.emaginequality.com'
     ports:
       - "80:3000"
